@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, .form-row, #search-num {
+    margin-left: 30px;
+}
+
+body {
+    background-color: white;
+}
+
+.poster {
+    position: relative;
+    text-align: center;
+}
+
+.poster img {
+    width:100%;
+}
+
+.info {
+    color: black;
+    text-align: center;
+}
+
+.metrics {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    right: 0px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.row .poster:hover .photo {
+    background-color: black;
+}
+
+.row .poster:hover .metrics {
+    visibility: visible;
+    color: black;
+}
+
+.row .poster:hover .photo {
+    opacity: 0.3;
+}
+
